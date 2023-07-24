@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/app_title"
+                style="@style/title"
+                android:text="@string/app_name"
+                android:focusable="true"/>
+
+            <Button
+                android:id="@+id/info_button"
+                style="@style/dark_button"
+                android:layout_marginTop="@dimen/layoutMargin"
+                android:text="@string/info_btn_txt" />
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/containerPadding"
+                android:layout_margin="@dimen/containerMargin"
+                android:background="@color/colorAccent">
+
+                <TextView
+                    android:id="@+id/add_sound_title"
+                    style="@style/median_title"
+                    android:text="@string/add_text_header"
+                    android:focusable="true"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="32dp"
+                    app:layout_constraintHorizontal_bias="0.5" />
+
+
+                <TextView
+                    android:layout_width="@dimen/buttonWidth"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/select_category_button"
+                    android:focusable="true"
+                    android:textColor="@color/black" />
+
+                <Spinner
+                    android:id="@+id/category_spinner"
+                    android:layout_width="@dimen/buttonWidth"
+                    android:layout_height="48dp"
+                    android:layout_marginVertical="10dp"
+                    android:contentDescription="@string/select_category_spinner"
+                    android:background="@color/white"/>
+
+                <Button
+                    android:id="@+id/btnRecording"
+                    style="@style/dark_button"
+                    android:layout_marginVertical="10dp"
+                    android:text="@string/start_recording_button" />
+
+                <Button
+                    android:id="@+id/btnPlayRecording"
+                    style="@style/dark_button"
+                    android:layout_marginVertical="10dp"
+                    android:text="@string/start_playing_button" />
+
+
+                <Button
+                    android:id="@+id/btnSaveRecording"
+                    style="@style/dark_button"
+                    android:background="@color/black"
+                    android:text="@string/save_button" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/browse_sound"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/containerPadding"
+                android:layout_margin="@dimen/containerMargin"
+                android:background="@color/colorAccent">
+
+
+                <TextView
+                    android:id="@+id/select_category_title"
+                    style="@style/median_title"
+                    android:text="@string/sound_gallery_title"
+                    android:focusable="true"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/browse_all_button"
+                    style="@style/dark_button"
+                    android:text="@string/browse_all_button" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

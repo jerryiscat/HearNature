@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">HearNature</string>
+
+    <!-- home screen xml -->
+
+    <!-- add sound -->
+    <string name="add_text_header">Add New Sound</string>
+    <string name="upload_button">Upload the Sound</string>
+    <string name="select_category_button">Select Category</string>
+    <string name="select_category_spinner">Open the dropdown list to select category</string>
+    <string name="location_button">Location</string>
+    <string name="save_button">Save</string>
+
+    <!-- sound gallery -->
+    <string name="sound_gallery_title">Sound Gallery</string>
+    <string name="browse_all_button">Browse All</string>
+
+    <!-- record sound window -->
+    <string name="start_recording_button">Start Recording</string>
+    <string name="stop_recording_button">Stop Recording</string>
+    <string name="stop_playing_button">Stop Playing</string>
+    <string name="start_playing_button">Start Playing</string>
+    <string name="save_recording_button">Save</string>
+
+    <!-- info page -->
+    <string name="info_title">Info Page</string>
+    <string name="info_btn_txt">More Info</string>
+    <string name="app_intro">Capture the beauty of nature with HearNature. Record and
+        cherish the mesmerizing sounds of the natural world. Immerse yourself in the tranquility
+        of nature through those audio recordings. </string>
+    <string name="nature_img_description">Waterfall flowing down from the mountain</string>
+    <string name="nature_img_cite">Photo by Laurel Balyeat on Unsplash</string>
+
+    <!-- browse sound page -->
+    <string name="play_sound_icon">sound player</string>
+    <string name="category_btn_txt">No Category</string>
+    <string name="date_txt">No Date</string>
+    <string name="location_txt">No Location</string>
+    <string name="home_button">Home</string>
+
+    <!-- toast -->
+    <string name="t_record_start">Recording Started, Click again to Stop</string>
+    <string name="t_record_stop">Recording Stopped</string>
+    <string name="t_play_start">Playing Started, Click again to Stop</string>
+    <string name="t_play_stop">Playing Stopped</string>
+    <string name="t_save">Recording Saved</string>
+    <string name="t_category">%s category is selected</string>
+
+    <!--old format: <string name="time_format">MMM.dd.yyyy hh:mm aaa</string> -->
+    <!-- new format -->
+    <string name="time_format">MMM.dd.yyyy</string>
+
+    <!-- permission -->
+    <string name="audio_permission_granted">Permission to record audio granted</string>
+    <string name="audio_permission_denied">Permission to record audio denied</string>
+
+    <!-- page switch-->
+    <string name="t_switch_page">Switch from %s page to %s page</string>
+    <string name="t_back_to_home_page">Switch back to Home page</string>
+
+
+</resources>

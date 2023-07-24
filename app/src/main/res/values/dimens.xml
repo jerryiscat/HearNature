@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO: Make the necessary accessibility changes, if needed-->
+<resources>
+    <dimen name="vMargin">15dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="titleMargin">32dp</dimen>
+    <dimen name="medianTitleMargin">10dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="titleSize">48sp</dimen>
+    <dimen name="medianTitleSize">28sp</dimen>
+    <dimen name="linkSize">20sp</dimen>
+    <dimen name="buttonHeight">36dp</dimen>
+
+    <dimen name="layoutMargin">40dp</dimen>
+    <dimen name="iconHeight">56dp</dimen>
+    <dimen name="buttonWidth">300dp</dimen>
+    <dimen name="switchHeight">50dp</dimen>
+    <dimen name="minButtonHeight">50dp</dimen>
+    <dimen name="containerMargin">36dp</dimen>
+    <dimen name="containerPadding">16dp</dimen>
+
+
+</resources>
